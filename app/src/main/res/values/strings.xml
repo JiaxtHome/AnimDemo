@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AnimDemo</string>
+
+    <!-- labels start -->
+    <string name="shimmer">ShimmerView</string>
+    <string name="retroflex">RetroflexView</string>
+    <string name="floatEdit">FloatEditView</string>
+    <string name="dropDown">DropDownView</string>
+    <string name="meshView">MeshView</string>
+    <!-- labels end -->
+</resources>
