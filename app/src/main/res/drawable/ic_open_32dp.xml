@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportHeight="110"
+    android:viewportWidth="110">
+    <group
+        android:name="g_open_arc"
+        android:pivotX="38">
+        <path
+            android:name="open_arc"
+            android:pathData="M37.6,29v-5.4c0-8.9-7.6-16-17-16s-17,7.2-17,16V28"
+            android:strokeColor="#000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="4"
+            android:trimPathEnd="0.76" />
+    </group>
+    <path
+        android:name="open_rect"
+        android:pathData="M39,29h32c5.5,0,10,4.5,10,10v32c0,5.5-4.5,10-10,10H39c-5.5,0-10-4.5-10-10V39C29,33.5,33.5,29,39,29z"
+        android:strokeColor="#000000"
+        android:strokeWidth="4" />
+</vector>

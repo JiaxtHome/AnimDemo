@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_open_32dp" >
+    <target
+        android:name="g_open_arc"
+        android:animation="@anim/anim_open_to_lock_p1" />
+    <target
+        android:name="open_arc"
+        android:animation="@anim/anim_open_to_lock_p2" />
+</animated-vector>

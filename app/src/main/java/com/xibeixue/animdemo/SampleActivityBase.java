@@ -24,16 +24,12 @@ public abstract class SampleActivityBase extends Activity {
     }
 
     private void addSampleView(View v) {
-        FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(getLayoutWidth(), getLayoutHeight(), Gravity.CENTER);
-        mContainer.addView(v, lp);
+        mContainer.addView(v, getLayoutParams());
     }
 
-    protected int getLayoutWidth() {
-        return FrameLayout.LayoutParams.WRAP_CONTENT;
-    }
-
-    protected int getLayoutHeight() {
-        return FrameLayout.LayoutParams.WRAP_CONTENT;
+    protected FrameLayout.LayoutParams getLayoutParams() {
+        FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT, Gravity.CENTER);
+        return lp;
     }
 
     abstract protected View getSampleView();

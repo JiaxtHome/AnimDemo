@@ -23,6 +23,13 @@
                 <category android:name="android.intent.category.XLGZS_SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity android:name=".svg.SvgActivity"
+            android:label="@string/svg">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.XLGZS_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

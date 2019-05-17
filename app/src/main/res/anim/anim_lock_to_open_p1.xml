@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:propertyName="trimPathStart"
+        android:startOffset="100"
+        android:valueFrom="0"
+        android:valueTo="0.24"
+        android:valueType="floatType"/>
+
+</set>

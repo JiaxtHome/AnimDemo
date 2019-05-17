@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_lock_32dp" ><!--引用的矢量图-->
+    <!--曲线收缩-->
+    <target
+        android:name="lock_arc"
+        android:animation="@anim/anim_lock_to_open_p1" />
+    <!--曲线组翻转-->
+    <target
+        android:name="g_lock_arc"
+        android:animation="@anim/anim_lock_to_open_p2" />
+</animated-vector>
