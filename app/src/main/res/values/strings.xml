@@ -4,6 +4,7 @@
     <!-- labels start -->
     <string name="shimmer">ShimmerView</string>
     <string name="svg">SVGView</string>
+    <string name="camera_3d">Camera3D</string>
     <string name="retroflex">RetroflexView</string>
     <string name="floatEdit">FloatEditView</string>
     <string name="dropDown">DropDownView</string>

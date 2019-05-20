@@ -30,6 +30,13 @@
                 <category android:name="android.intent.category.XLGZS_SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity android:name=".camera_3d.Camera3DActivity"
+            android:label="@string/camera_3d">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.XLGZS_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
