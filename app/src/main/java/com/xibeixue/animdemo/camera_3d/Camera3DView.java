@@ -1,12 +1,7 @@
 package com.xibeixue.animdemo.camera_3d;
 
-import android.animation.ValueAnimator;
 import android.content.Context;
-import android.graphics.Camera;
-import android.graphics.Matrix;
 import android.util.AttributeSet;
-import android.view.animation.Animation;
-import android.view.animation.Transformation;
 import android.widget.ImageView;
 
 public class Camera3DView extends ImageView {
