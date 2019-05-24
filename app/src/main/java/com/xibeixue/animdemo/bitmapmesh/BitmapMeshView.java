@@ -107,7 +107,7 @@ public class BitmapMeshView extends TextView {
                     verts[(j * (WIDTH + 1) + i) * 2 + 1] = halfHeight;  //计算y坐标
                     verts[(j * (WIDTH + 1) + i) * 2] = cx;  //计算x坐标
                 } else if (cx <= startX - unitWidth) { //左侧完全展开区域
-                    verts[(j * (WIDTH + 1) + i) * 2 + 1] = orig[(j * (WIDTH + 1) + i) * 2 + 1];
+                    verts[(j * (WIDTH + 1) + i) * 2 + 1] = cy;
                     verts[(j * (WIDTH + 1) + i) * 2] = cx;
                 } else { // 中间正在展开区域
                     float ratio = (startX - cx) / unitWidth;
